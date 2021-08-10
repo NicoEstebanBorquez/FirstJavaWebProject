@@ -135,6 +135,7 @@ public class MovilDaoJDBC {
             stmt.setDouble(6, movil.getPrecio());
             stmt.setString(7, movil.getNombreCliente());
             stmt.setString(8, movil.getTelefonoCliente());
+            stmt.setInt(9, movil.getIdMovil());
             
             rows = stmt.executeUpdate();
 

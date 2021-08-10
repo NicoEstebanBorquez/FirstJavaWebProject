@@ -11,30 +11,18 @@
         <title>Reparación de Smartphones</title>
     </head>
     <body>
-        <!-- Cabecero (JSP)-->
-        <header id="main-header" class="py-2 bg-success text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1>
-                            <i class="fas fa-cog"></i> Listado de Móviles
-                        </h1>
-                    </div>
-                </div>
-            </div>
-
-        </header>
+   
         <!--Cabecero-->
-        <%--<jsp:include page="/WEB-INF/paginas/comunes/cabecero.jsp"/>-->
+        <jsp:include page="/WEB-INF/paginas/comunes/cabecero.jsp"/>
 
         <!--Botones de navegacion-->
-        <%--<jsp:include page="/WEB-INF/paginas/comunes/botonesNavegacion.jsp"/>--%>
+        <jsp:include page="/WEB-INF/paginas/comunes/botonesNavegacion.jsp"/>
 
         <!--Listado Clientes -->
-        <%--<jsp:include page="/WEB-INF/paginas/cliente/listadoClientes.jsp"/>--%>
+        <jsp:include page="/WEB-INF/paginas/movil/listadoMoviles.jsp"/>
 
         <!--Pie de Pagina-->
-        <%--<jsp:include page="/WEB-INF/paginas/comunes/piePagina.jsp"/>--%>
+        <jsp:include page="/WEB-INF/paginas/comunes/piePagina.jsp"/>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
